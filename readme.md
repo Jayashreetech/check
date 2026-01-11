@@ -34,21 +34,23 @@ All resource requests are analyzed before allocation to ensure the system remain
 
 ## Safe State
 
-<div style="display:flex; align-items:flex-start;">
-
-<div style="flex: 0 0 60%; margin-right: 20px;">
 A system is in a **safe state** if it can allocate resources to each process in some order and still avoid a deadlock.  
 A safe sequence ensures all processes can complete without deadlock.
 
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td width="60%" valign="top">
+
 A safe state exists if a safe sequence can be found. Unsafe states may lead to deadlocks.  
-All resource requests are analyzed before allocation to ensure the system remains in a safe state.  
-</div>
+All resource requests are analyzed before allocation to ensure the system remains in a safe state.
+</td>
 
-<div style="flex: 0 0 40%;">
-<img src="https://github.com/Jayashreetech/check/blob/main/img/img.png" alt="Safe State Diagram" style="max-height:200px; width:auto;">
-</div>
+<td width="40%" valign="top">
+<img src="https://github.com/Jayashreetech/check/blob/main/img/img.pn alt="Safe State Diagram" width="300">
+</td>
+</tr>
+</table>
 
-</div>
 
 
 
