@@ -27,7 +27,7 @@ A safe state exists if a safe sequence can be found. Unsafe states may lead to d
 All resource requests are analyzed before allocation to ensure the system remains in a safe state.
 </div>
 <div style="flex:1">
-<img src="images/safe_state.png" alt="Safe State Diagram" width="300">
+<img src="https://github.com/Jayashreetech/check/blob/main/img/img.png" alt="Safe State Diagram" width="300">
 </div>
 </div>
 
