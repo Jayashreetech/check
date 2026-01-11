@@ -1,24 +1,14 @@
 # Deadlock Avoidance and Detection Algorithms – Operating Systems Mini Project (C)
 
-This repository contains C implementations of **deadlock avoidance and detection algorithms**.  
-It was implemented as a **mini project** for the Operating Systems course and is based on:  
-**Operating System Concepts** by Silberschatz, Galvin, and Gagne.
-
----
+This repository contains C implementations of **deadlock avoidance and detection algorithms**.  It was implemented as a **mini project** for the Operating Systems course and is based on:  **Operating System Concepts** by Silberschatz, Galvin, and Gagne.
 
 ## Objectives
-- Develop code to demonstrate deadlocks, where sets of concurrent processes
-  may be prevented from completing tasks.
+- Develop code to demonstrate deadlocks, where sets of concurrent processes may be prevented from completing tasks.
 - Present and implement different methods for **preventing, avoiding, and detecting deadlocks**.
 
----
-
 ## Introduction
-A process may request resources; if they are unavailable, the process enters a waiting state.  
-Sometimes, a waiting process is never able to proceed because the requested resources are held by other waiting processes.  
-This situation is called a **deadlock**.
+A process may request resources; if they are unavailable, the process enters a waiting state.  Sometimes, a waiting process is never able to proceed because the requested resources are held by other waiting processes.  This situation is called a **deadlock**.
 
----
 
 ## Deadlock Avoidance
 Deadlock avoidance algorithms prevent deadlocks by limiting how requests can be made.  
@@ -27,12 +17,9 @@ Deadlock avoidance algorithms prevent deadlocks by limiting how requests can be 
 - Low device utilization  
 - Reduced system throughput
 
----
-
 ## Safe State
 
-A system is in a **safe state** if it can allocate resources to each process in some order and still avoid a deadlock.  
-A safe sequence ensures all processes can complete without deadlock.
+A system is in a **safe state** if it can allocate resources to each process in some order and still avoid a deadlock.  A safe sequence ensures all processes can complete without deadlock.
 
 <div style="display:flex; align-items:flex-start; gap:20px;">
 <div style="flex:1">
@@ -44,7 +31,6 @@ All resource requests are analyzed before allocation to ensure the system remain
 </div>
 </div>
 
----
 
 ## Algorithms Implemented
 
@@ -52,8 +38,6 @@ All resource requests are analyzed before allocation to ensure the system remain
 2. [Banker’s Algorithm](./Banker's%20Algorithm/README.md)  
 3. [Resource Request Algorithm](./Resource%20Request%20Algorithm/README.md)  
 4. [Deadlock Detection Algorithm](./Deadlock%20Detection/README.md)
-
----
 
 ## Repository Structure
 
