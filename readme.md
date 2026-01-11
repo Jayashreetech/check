@@ -34,14 +34,22 @@ All resource requests are analyzed before allocation to ensure the system remain
 
 ## Safe State
 
+<div style="display:flex; align-items:flex-start; gap:20px;">
+
+<div style="flex:1">
 A system is in a **safe state** if it can allocate resources to each process in some order and still avoid a deadlock.  
 A safe sequence ensures all processes can complete without deadlock.
 
-<img src="https://github.com/Jayashreetech/check/blob/main/img/img.png" alt="Safe State Diagram" align="right" width="300" style="margin-left:20px; margin-bottom:0; margin-top:0;">
-
 A safe state exists if a safe sequence can be found. Unsafe states may lead to deadlocks.  
 All resource requests are analyzed before allocation to ensure the system remains in a safe state.  
-This image shows a system in safe, unsafe, and deadlocked states, clearly indicating which sequences allow processes to complete safely.
+This diagram shows a system in safe, unsafe, and deadlocked states, clearly indicating which sequences allow processes to complete safely.
+</div>
+
+<div style="flex:0 0 auto;">
+<img src="https://github.com/Jayashreetech/check/blob/main/img/img.png" alt="Safe State Diagram" style="max-height:200px; width:auto;">
+</div>
+
+</div>
 
 
 
