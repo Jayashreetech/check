@@ -67,7 +67,7 @@ Deadlock avoidance ensures the system **never enters an unsafe state**.
 -Multiple instances of a resource type
 * Use the Banker’s Algorithm
 
--**Banker’s Algorithm:**
+**Banker’s Algorithm:**
   The **Resource Allocation Graph (RAG) algorithm** is not applicable to resource allocation systems with multiple instances of each resource type.
 The deadlock avoidance algorithm is applicable to such systems but is less efficient than the RAG scheme. This algorithm is commonly known as the **Banker’s Algorithm**.
 
