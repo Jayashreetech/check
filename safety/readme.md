@@ -1,7 +1,7 @@
-# Safety Algorithm (C)
+# Safety Algorithm
 
-The Safety Algorithm determines whether a state is safe if the system can allocate resources to each process in some order and still avoid a deadlock. 
-A system is in a safe state only if there exists a safe sequence.
+- The Safety Algorithm determines whether a state is safe if the system can allocate resources to each process in some order and still avoid a deadlock. 
+- A system is in a safe state only if there exists a safe sequence.
 
 
 
