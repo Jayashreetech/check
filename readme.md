@@ -91,9 +91,7 @@ All resource requests are analyzed before allocation to ensure the system remain
 This image shows a system in safe, unsafe, and deadlocked states, clearly indicating which sequences allow processes to complete safely.
 
 ---
-<table>
-<tr>
-<td>
+<img src="https://github.com/jayashree1100/check/blob/main/img/img.png" alt="Safe State Diagram" width="150" height="150" align="right" style="margin-left: 20px; margin-bottom: 10px;">
 
 ## 🔒 Safe State
 
@@ -103,14 +101,7 @@ A **safe sequence** ensures all processes can complete without deadlock.
 All resource requests are analyzed before allocation to ensure the system remains in a **safe state**. Unsafe states may lead to deadlocks.  
 This diagram shows safe, unsafe, and deadlocked states, clearly indicating which sequences allow processes to complete safely.
 
-</td>
-<td>
 
-<img src="https://github.com/jayashree1100/check/blob/main/img/img.png" alt="Safe State Diagram" width="150" height="150">
-
-</td>
-</tr>
-</table>
 
 
 
