@@ -108,16 +108,6 @@ This image shows a system in **safe, unsafe, and deadlocked states**, clearly in
 
 ---
 
-## Applications
-- **Ticket Booking Systems:** Prevents multiple users from waiting indefinitely for seat allocation resources.
-- **Printers and Peripheral Devices:** Ensures multiple processes do not block each other when accessing shared printers or scanners.
-- **Banking Transactions:** Avoids deadlocks in multi-account transfers where multiple resources (accounts) are accessed concurrently.
-- **Manufacturing Automation:** Coordinates robotic arms or machines that require shared tools or parts to prevent process halts.
-- **Airport Baggage Handling:** Ensures smooth operation when multiple conveyors and loaders share common resources.
-- **Online Gaming Servers:** Manages shared resources like game state or leaderboards to prevent player or server stalls.
-
----
-
 ## Learning Outcomes
 - Applied techniques for **avoiding and detecting deadlocks**.
 - Distinguished **safe vs unsafe system states** in resource allocation.
