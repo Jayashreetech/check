@@ -87,7 +87,7 @@ This algorithm is commonly known as the **Banker’s Algorithm**.
 
 ## Safe State
 
-<img src="img/img.png" alt="Safe State Diagram" align="right" width="110" height="110" style="margin-left:20px; margin-bottom:0; margin-top:0;">
+<img src="https://github.com/jayashree1100/check/blob/main/img/img.png" alt="Safe State Diagram" align="right" width="110" height="110" style="margin-left:20px; margin-bottom:0; margin-top:0;">
 A system is in a **safe state** if it can allocate resources to each process in some order and still avoid a deadlock.
 A **safe sequence** ensures all processes can complete without deadlock.
 
