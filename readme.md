@@ -92,15 +92,24 @@ This image shows a system in safe, unsafe, and deadlocked states, clearly indica
 
 ---
 
+<div style="display: flex; align-items: center;">
+
+<div style="flex: 1; padding-right: 20px;">
+## 🔒 Safe State
+
 A system is in a **safe state** if it can allocate resources to each process in some order and still avoid a deadlock.  
 A **safe sequence** ensures all processes can complete without deadlock.
 
 All resource requests are analyzed before allocation to ensure the system remains in a **safe state**. Unsafe states may lead to deadlocks.  
 This diagram shows safe, unsafe, and deadlocked states, clearly indicating which sequences allow processes to complete safely.
+</div>
 
-<div align="right">
+<div style="flex: 0;">
   <img src="https://github.com/jayashree1100/check/blob/main/img/img.png" alt="Safe State Diagram" width="150" height="150">
 </div>
+
+</div>
+
 
 ## 💻 Implementation & Algorithms
 - Developed modular **C programs** to simulate deadlock scenarios.  
