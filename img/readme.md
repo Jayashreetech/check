@@ -61,9 +61,9 @@ Figure: Resource Allocation Graph showing process–resource relationships.
 
 
 <figure>
-  <img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Safe State Diagram" alt="Resource Allocation Graph: No Deadlock" width="300">
+  <img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Safe State Diagram" alt="Resource Allocation Graph: No Deadlock" width="100">
   <figcaption>Figure: Resource Allocation Graph showing no deadlock.</figcaption>
-   <img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Safe State Diagram" alt="Resource Allocation Graph: No Deadlock" width="300">
+   <img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Safe State Diagram" alt="Resource Allocation Graph: No Deadlock" width="100">
   <figcaption>Figure: Resource Allocation Graph showing no deadlock.</figcaption>
 </figure>A **Resource Allocation Graph** represents processes and resources as nodes and the allocation/request relationships as edges.  
 - A **request edge** (`Pi → Rj`) indicates that process Pi has requested an instance of resource Rj.  
