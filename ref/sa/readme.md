@@ -27,8 +27,8 @@ Deadlock avoidance ensures that the system **never enters an unsafe state**.
 - For systems with a **single instance** of each resource type, use the Resource Allocation Graph method.
 - For systems with **multiple instances** of each resource, use the **Banker’s Algorithm**. 
 
-## Banker’s Algorithm
-The **Banker’s Algorithm** is a deadlock avoidance algorithm that applies to systems with multiple instances of each resource type. Each process must declare its **maximum resource requirements** in advance. Resource requests are granted only if the system remains in a **safe state** after allocation. :contentReference[oaicite:2]{index=2}
+### Banker’s Algorithm
+The **Banker’s Algorithm** is a deadlock avoidance algorithm that applies to systems with multiple instances of each resource type. Each process must declare its **maximum resource requirements** in advance. Resource requests are granted only if the system remains in a **safe state** after allocation. 
 
 The Banker’s Algorithm consists of two parts:
 - **Safety Algorithm**
