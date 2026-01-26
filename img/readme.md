@@ -56,7 +56,8 @@ A **Resource Allocation Graph** represents processes and resources as nodes and 
 
 If no cycle exists in the graph, the system is free from deadlocks. If a cycle exists (for a single instance of each resource type), it indicates a deadlock.
 
-![Resource Allocation Graph](img/safety/RAG.ND.jpg)  
+![Resource Allocation Graph](<img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Safe State Diagram" align="right" width="110" height="110" style="margin-left:20px; margin-bottom:0; margin-top:0;">
+)  
 Figure: Resource Allocation Graph showing process–resource relationships.
 
 ### Wait‑For Graph
