@@ -50,7 +50,7 @@ A **cycle in the Wait‑For Graph** implies a deadlock among processes.
 ## Graph-Based Representation of Deadlocks
 
 ### Resource Allocation Graph (RAG)
-<img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Safe State Diagram" align="right" width="110" height="110" style="margin-left:20px; margin-bottom:0; margin-top:0;"><img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20WD.jpg" alt="Safe State Diagram" align="right" width="110" height="110" style="margin-left:20px; margin-bottom:0; margin-top:0;">A **Resource Allocation Graph** represents processes and resources as nodes and the allocation/request relationships as edges.  
+![Resource Allocation Graph with ND]<img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Safe State Diagram" align="right" width="110" height="110" style="margin-left:20px; margin-bottom:0; margin-top:0;">![Resource Allocation Graph with WD]<img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20WD.jpg" alt="Safe State Diagram" align="right" width="110" height="110" style="margin-left:20px; margin-bottom:0; margin-top:0;">A **Resource Allocation Graph** represents processes and resources as nodes and the allocation/request relationships as edges.  
 - A **request edge** (`Pi → Rj`) indicates that process Pi has requested an instance of resource Rj.  
 - An **assignment edge** (`Rj → Pi`) indicates that resource Rj is currently allocated to process Pi.
 
