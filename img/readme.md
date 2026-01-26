@@ -28,8 +28,7 @@ A deadlock can occur **if and only if** all four conditions hold simultaneously:
 ### Resource Allocation Graph (RAG)
 <img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Safe State Diagram" align="right" width="110" height="110" style="margin-left:20px; margin-bottom:0; margin-top:0;">
 /*<div align="right">
-%<img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Resource Allocation Graph" width="100">
-</div>*/
+
 A **Resource Allocation Graph** represents processes and resources as nodes and the allocation/request relationships as edges.
 - A **cycle** in the **Resource Allocation Graph (RAG)** (with single-instance resources) indicates a deadlock.
 - If no cycle exists, the system is free from deadlocks.
@@ -108,6 +107,8 @@ This image shows a system in **safe, unsafe, and deadlocked states**, clearly in
 - Outputs indicate **safe, unsafe, and deadlocked states**, validating theoretical concepts.
 
 ---
+%<img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Resource Allocation Graph" width="100">
+</div>*/
 
 ## Learning Outcomes
 - Applied techniques for **avoiding and detecting deadlocks**.
