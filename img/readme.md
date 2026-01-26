@@ -27,7 +27,7 @@ A deadlock can occur **if and only if** all four conditions hold simultaneously:
 
 ### Resource Allocation Graph (RAG)
 <div align="right">
-<img src="images/resource_allocation_graph.png" alt="Resource Allocation Graph" width="300">
+<img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Resource Allocation Graph" width="300">
 </div>
 A **Resource Allocation Graph** represents processes and resources as nodes and the allocation/request relationships as edges.
 - A **cycle** in the **Resource Allocation Graph (RAG)** (with single-instance resources) indicates a deadlock.
