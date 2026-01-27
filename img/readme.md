@@ -23,30 +23,6 @@ A deadlock can occur **if and only if** all four conditions hold simultaneously:
 
 ---
 
-## Visual Models for Deadlocks
-
-### Resource Allocation Graph (RAG)
-<img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Safe State Diagram" align="right" width="110" height="110" style="margin-left:20px; margin-bottom:0; margin-top:0;">
-
-
-A **Resource Allocation Graph** represents processes and resources as nodes and the allocation/request relationships as edges.
-- A **cycle** in the **Resource Allocation Graph (RAG)** (with single-instance resources) indicates a deadlock.
-- If no cycle exists, the system is free from deadlocks.
-
----
-
-### Wait‑For Graph
-<div align="right">
-<img src="images/wait_for_graph.png" alt="Wait‑For Graph" width="260">
-</div>
-The **Wait‑For Graph** simplifies the **RAG** by removing resource nodes; edges show which process is waiting for another.
-A **cycle in the Wait‑For Graph** implies a deadlock among processes.
-
----
-
-
-
-
 ## Graph-Based Representation of Deadlocks
 
 ### Resource Allocation Graph (RAG)
