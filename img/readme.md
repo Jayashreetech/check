@@ -32,20 +32,7 @@ A deadlock can occur **if and only if** all four conditions hold simultaneously:
 
 If no cycle exists in the graph, the system is free from deadlocks. If a cycle exists (for a single instance of each resource type), it indicates a deadlock.
 
-Figure: Resource Allocation Graph showing process–resource relationships.
 
-
-
-<figure>
-  <img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Safe State Diagram" alt="Resource Allocation Graph: No Deadlock" width="50">
-  <figcaption>Figure: a.</figcaption>
-   <img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Safe State Diagram" alt="Resource Allocation Graph: No Deadlock" width="50">
-  <figcaption>Figure: b </figcaption>
-</figure>A **Resource Allocation Graph** represents processes and resources as nodes and the allocation/request relationships as edges.  
-- A **request edge** (`Pi → Rj`) indicates that process Pi has requested an instance of resource Rj.  
-- An **assignment edge** (`Rj → Pi`) indicates that resource Rj is currently allocated to process Pi.
-
-If no cycle exists in the graph, the system is free from deadlocks. If a cycle exists (for a single instance of each resource type), it indicates a deadlock.
 
 
 
