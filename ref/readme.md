@@ -17,19 +17,19 @@ These are the four necessary conditions for deadlock.
 ## Graph-Based Representation of Deadlocks
 
 ### Resource Allocation Graph (RAG)
-![Resource Allocation Graph](images/resource_allocation_graph.png)
-
-A **Resource Allocation Graph** represents processes and resources as nodes and the allocation/request relationships as edges. Figure: Resource Allocation Graph showing process–resource relationships.
-- A **request edge** (`Pi → Rj`) indicates that process Pi has requested an instance of resource Rj.
+<img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20WD.jpg" alt="Safe State Diagram" align="right" width="110" height="110" style="margin-left:20px; margin-bottom:0; margin-top:0;"><img src="https://github.com/jayashree1100/check/blob/main/img/RAG%20ND.jpg" alt="Safe State Diagram" align="right" width="110" height="110" style="margin-left:20px; margin-bottom:0; margin-top:0;">A **Resource Allocation Graph** represents processes and resources as nodes and the allocation/request relationships as edges.  
+- A **request edge** (`Pi → Rj`) indicates that process Pi has requested an instance of resource Rj.  
 - An **assignment edge** (`Rj → Pi`) indicates that resource Rj is currently allocated to process Pi.
 
 If no cycle exists in the graph, the system is free from deadlocks. If a cycle exists (for a single instance of each resource type), it indicates a deadlock.
+Figure: Resource Allocation Graph showing process–resource relationships with and without a cycle.
+
 
 ### Wait‑For Graph
-![Wait‑For Graph](images/wait_for_graph.png)
+<img src="https://github.com/jayashree1100/check/blob/main/img/WFG.JPG" alt="Safe State Diagram" align="right" width="190" height="190" style="margin-left:20px; margin-bottom:0; margin-top:0;"> The **Wait‑For Graph** simplifies the Resource Allocation Graph by removing resource nodes and showing only the waiting relationships between processes. 
+- In a Wait‑For Graph, a directed edge `Pi → Pj` means that *process Pi is waiting for a resource held by process Pj*. A cycle in the Wait‑For Graph implies a deadlock among the processes. 
 
-The **Wait‑For Graph** simplifies the Resource Allocation Graph by removing resource nodes and showing only the waiting relationships between processes. In a Wait‑For Graph, a directed edge `Pi → Pj` means that *process Pi is waiting for a resource held by process Pj*. A cycle in the Wait‑For Graph implies a deadlock among the processes. :contentReference[oaicite:0]{index=0}
-Figure: Wait‑For Graph showing waiting relationships among processes.
+ Figure: Wait‑For Graph showing waiting relationships among processes.
 
 
 ## Methods for Handling Deadlocks
